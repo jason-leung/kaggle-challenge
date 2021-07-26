@@ -16,5 +16,3 @@ Several built-in callback functions in Keras were examined. These included early
 ![Training and validation loss](loss.png)
 
 By manual inspection of the training and validation accuracies and loss over each epoch, the best model was selected to be that at epoch 158, where the training loss is 86.47, the testing loss is 82.65, the training accuracy is 1.0, and the testing accuracy is 0.94. This model was selected because the training and testing accuracies and losses are quite similar, suggesting that the model did not significantly overfit.
-As a final step to generate the submission file, the selected weight were loaded into the model and was used to predict the labels on the 200 testing data set. The predictions were then formatted into the appropriate CSV format for submission.
-
